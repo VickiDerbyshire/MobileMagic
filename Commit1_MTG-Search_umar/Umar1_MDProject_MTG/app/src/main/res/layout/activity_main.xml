@@ -1,0 +1,64 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001C25"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:fontFamily="cursive"
+                android:text="Home"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/lblSample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Sample Label"
+                android:textColor="#00FFE8" />
+
+            <EditText
+                android:id="@+id/txtSample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Sample edit Text"
+                android:gravity="start|top"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btnMTG_Search_View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:onClick="MTG_Search_View"
+                android:text="MTG Search View" />
+
+            <TextView
+                android:id="@+id/lblViewTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

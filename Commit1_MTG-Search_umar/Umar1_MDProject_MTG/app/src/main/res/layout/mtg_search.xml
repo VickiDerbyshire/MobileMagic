@@ -1,0 +1,81 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A3C2E"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_MTG_Search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:fontFamily="cursive"
+                android:text="MTG Search"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/lblSearchPrompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Search card"
+                android:textColor="#00FFE8" />
+
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Type Card Name"
+                android:gravity="start|top"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btnMTG_Search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="MTG_Search"
+                android:text="Search MTG Card" />
+
+            <TextView
+                android:id="@+id/lblViewCards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/Imagess"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnHomeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:onClick="Home_View"
+                android:text="Home View" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
