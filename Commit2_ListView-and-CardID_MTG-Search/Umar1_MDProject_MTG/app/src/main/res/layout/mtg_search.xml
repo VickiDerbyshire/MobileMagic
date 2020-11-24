@@ -26,6 +26,12 @@
                 />
 
             <TextView
+                android:id="@+id/lblllllllll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
                 android:id="@+id/lblSearchPrompt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,13 +65,20 @@
                 android:inputType="textMultiLine"
                 android:textColor="#FFFFFF" />
 
-            <LinearLayout
-                android:id="@+id/Imagess"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+            <ListView
+                android:id="@+id/ListViewMTG"
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_height="400dp" />
 
-            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/Imagess"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal">-->
+
+<!--            </LinearLayout>-->
 
 
             <Button
@@ -75,6 +88,8 @@
                 android:layout_marginTop="100dp"
                 android:onClick="Home_View"
                 android:text="Home View" />
+
+
 
         </LinearLayout>
     </ScrollView>

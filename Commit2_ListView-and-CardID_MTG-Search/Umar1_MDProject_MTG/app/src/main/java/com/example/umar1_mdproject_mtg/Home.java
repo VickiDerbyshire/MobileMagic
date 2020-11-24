@@ -46,6 +46,7 @@ public class Home extends AppCompatActivity {
         } else {
             while (c.moveToNext()) {
 
+                //Displaying all rows of the Database user card table
                 Table_View.append("\n\nUSER CARD ID: " + c.getString(c.getColumnIndex("user_card_ID")) + "   ");
                 Table_View.append("CARD ID: " + c.getString(c.getColumnIndex("card_PK")) + "   ");
                 Table_View.append("SET: " + c.getString(c.getColumnIndex("card_set")) + "   ");
