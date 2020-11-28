@@ -1,0 +1,54 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001C25"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:fontFamily="cursive"
+                android:text="Home &amp; Card Collection"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:id="@+id/lblSample"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Sample Label"
+                android:textColor="#00FFE8" />
+
+
+            <Button
+                android:id="@+id/btnMTG_Search_View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:onClick="MTG_Search_View"
+                android:text="MTG Search View" />
+
+            <TextView
+                android:id="@+id/lblViewTable"
+                android:layout_width="wrap_content"
+                android:layout_height="9000dp"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
